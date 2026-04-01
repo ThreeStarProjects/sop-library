@@ -17,7 +17,7 @@ var B = {
 };
 
 var PIN = "1234";
-var LS_DEPTS_KEY = "ssp_departments_v5";
+var LS_DEPTS_KEY = "ssp_departments_v6";
 var DEPT_EMOJIS = ["🎨","🔧","🏭","📦","👤","💼","📊","🏗️","⚙️","🖥️","📋","🏢"];
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -49,6 +49,11 @@ var DEFAULT_DEPARTMENTS = [
     id: "store", name: "Store & Purchase", emoji: "📦",
     sheetId: "1vWJx3Su8tbAtI0sfhsFJTqhygf65swJUe0EYDUA4SNo",
     tabs: "Material Requirement Planning,Purchase Requisition Process,Vendor Quotation,Purchase Order Issuance,Material Receiving,Material Quality Inspection,Store Inventory Management,Material Issue,Tools Issuance and Return"
+  },
+  {
+  id: "data", name: "Data Management", emoji: "📊",
+  sheetId: "1MQKuMsm-bWeomMpgGkt41Nanfb-nxW0o4hImToQTwUY",
+  tabs: "Project Data Management,Document Management & Version Control,Daily Project Progress Tracking,Delay & Bottleneck Managment System,Daily & Weekly Reporting"
   },
 ];
 
